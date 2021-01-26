@@ -99,7 +99,7 @@ a{
     background: #F2F2F2;
     z-index: 2;
     margin-top: 90px;
-    margin-left: 100px;
+    margin-left: 90px;
 }
 .video-box-2{
     width: 570px;
@@ -107,7 +107,7 @@ a{
     background: #F2F2F2;
     z-index: 2;
     margin-top: 90px;
-    margin-right: 100px;
+    margin-right: 90px;
 }
 .video-box-2::after{
     clear: both;
