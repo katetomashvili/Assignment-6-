@@ -1,8 +1,16 @@
 .clear{
     clear: both;
 }
-.body{
-    padding-top: 79.75px;
+/* Header */
+.header-wrapper{
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+    z-index: 20;
+}
+body{
+    padding-top: 100px;
 }
 .logo{
     float: left;
@@ -22,6 +30,11 @@
     margin-left: 25px;
     margin-top: 35px;
 }
+.nav-ul::after {
+	content: '';
+	clear: left;
+	display: block;
+}
 a{
     color: #3D58A6;
 }
@@ -29,3 +42,30 @@ a{
     float: right;
     margin-right: 559.51px;
 }
+/* Section of Computer Photo */
+.section-1{
+    background: #E6E6E6;
+    height: 520px;
+} 
+.computer-photo{
+    width: 1170px;
+    height: 460px;
+}
+.photo-container{
+    width: 1170px;
+    height: 460px;
+    margin-top: 30px;
+    margin-left: 98px;
+    position: relative;
+}
+.comp-text{
+    font-family: 'Roboto-Bold', sans-serif;
+    width: 339px;
+    height: 147px;
+    color: #E6E6E6;
+    font-size: 30px;
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+}
+/* Section of video divs */
