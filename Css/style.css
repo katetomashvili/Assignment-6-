@@ -1,6 +1,15 @@
 .clear{
     clear: both;
 }
+.f-left{
+    float: left;
+}
+.f-right{
+    float: right;
+}
+body{
+    padding-top: 100px;
+}
 /* Header */
 .header-wrapper{
     position: fixed;
@@ -9,9 +18,7 @@
     left:0;
     z-index: 20;
 }
-body{
-    padding-top: 100px;
-}
+
 .logo{
     float: left;
     margin-left: 100px;
@@ -46,15 +53,16 @@ a{
 .section-1{
     background: #E6E6E6;
     height: 520px;
+    width: 100%;
 } 
 .computer-photo{
     width: 1170px;
     height: 460px;
+    margin-top: 30px;
 }
 .photo-container{
     width: 1170px;
     height: 460px;
-    margin-top: 30px;
     margin-left: 98px;
     position: relative;
 }
@@ -69,3 +77,38 @@ a{
     bottom: 20px;
 }
 /* Section of video divs */
+.section-2{
+    background: #363E97;
+    width: 1366px;  
+    height: 499px;
+    position: relative;
+}
+.videos-h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    color: #FFFFFF;
+    width: 254px;
+    height: 32px;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+.video-box-1{
+    width: 570px;
+    height: 320px;
+    background: #F2F2F2;
+    z-index: 2;
+    margin-top: 90px;
+    margin-left: 100px;
+}
+.video-box-2{
+    width: 570px;
+    height: 320px;
+    background: #F2F2F2;
+    z-index: 2;
+    margin-top: 90px;
+    margin-right: 100px;
+}
+.two-vid-box::after{
+    clear: both;
+}
