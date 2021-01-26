@@ -1,0 +1,31 @@
+.clear{
+    clear: both;
+}
+.body{
+    padding-top: 79.75px;
+}
+.logo{
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.logo-image{
+    width: 197px;
+    height: 60px;
+}
+.nav-li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    display: inline;
+    float: left;
+    text-transform: uppercase;
+    margin-left: 25px;
+    margin-top: 35px;
+}
+a{
+    color: #3D58A6;
+}
+.nav-ul{
+    float: right;
+    margin-right: 559.51px;
+}
