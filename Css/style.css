@@ -12,6 +12,7 @@ body{
 }
 /* Header */
 .header-wrapper{
+    background: white;
     position: fixed;
     width: 100%;
     top:0;
@@ -175,3 +176,74 @@ a{
     height: 60px;
 }
 /* Featured Section */
+.section-4{
+    height: 345px;
+    background: #E6E6E6;
+    position: relative;
+}
+.featured-h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    width: 379px;
+    height: 32px;
+    color: #000000;
+    position: absolute;
+    top: 28px;
+    left: 98px;
+}
+.box-h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: #3D58A6;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.left-box{
+    width: 570px;
+    height: 225px;
+    background: #F2F2F2;
+    margin-top: 90px;
+    margin-left: 100px;
+}
+.right-box{
+    width: 570px;
+    height: 225px;
+    background: #F2F2F2;
+    margin-top: 90px;
+    margin-left: 30px;
+}
+.box-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    width: 355px;
+    height: 143px;
+    margin-top: 18px;
+    margin-right: 25px;
+}
+.box-photo{
+    margin-top: 15px;
+    margin-left: 40px;
+}
+.read-more{
+    font-family: 'Roboto', sans-serif;
+    color: #3D58A6;
+    width: 75px;
+    height: 20px;
+    margin-left: 465px;
+}
+.right-box::after{
+    clear: both;
+}
+footer{
+    margin-top: 23px;
+}
+.footer-left, .footer-right{
+    font-family: 'Myriad Pro';
+}
+.footer-left{
+    margin-left: 100px;
+    margin-bottom: 22px;
+}
+.footer-right{
+    margin-right: 95px;
+}
